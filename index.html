@@ -1,0 +1,86 @@
+<style>
+  #meter {
+    width: 100%; height: 100%;
+  }
+
+  #first {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+
+  #first-text {
+    font-size: 12px;
+  }
+
+  #first-text-support {
+    fill: #333;
+    font-size: 12px;
+  }
+
+  #second {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+
+  #second-text {
+    font-size: 12px;
+  }
+
+  #second-text-support {
+    fill: #333;
+    font-size: 12px;
+  }
+
+  #third {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+
+  #third-text {
+    font-size: 12px;
+  }
+
+  #third-text-support {
+    fill: #333;
+    font-size: 12px;
+  }
+
+  #fourth {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+
+  #fourth-text {
+    font-size: 12px;
+  }
+
+  #fourth-text-support {
+    fill: #555;
+    font-size: 12px;
+  }
+</style>
+<svg id="meter" viewBox="0 0 400 400">
+  <g id="gauge">
+    <g class="bar">
+      <rect id="first" x="0" y="20" rx="10" ry="10" width="320" height="50" fill="#444" />
+      <text id="first-text" x="20" y="45" fill="#fff">This Month's Minimun Revenue Standard</text>
+      <text id="first-text-support" x="320" y="45">$6000</text>
+    </g>
+    <g class="bar">
+      <rect id="second"  x="0" y="60" rx="10" ry="10" width="320" height="50" fill="#bbb"/>
+      <text id="second-text" x="20" y="85" fill="#fff">Where Should I Be</text>
+      <text id="second-text-support" x="320" y="85">$6000</text>
+    </g>
+    <g class="bar">
+      <rect  id="third" x="0" y="100" rx="10" ry="10" width="320" height="50" fill="red"/>
+      <text id="third-text" x="20" y="125" fill="#fff">Where I am</text>
+      <text id="third-text-support" x="320" y="125">$6000</text>
+    </g>
+    <g class="bar">
+      <rect  id="fourth" x="0" y="140" rx="10" ry="10" width="320" height="50" fill="grey"/>
+      <text id="fourth-text" x="20" y="170" fill="#fff">Month-end Projection</text>
+      <text id="fourth-text-support" x="320" y="170">$6000</text>
+    </g>
+  </svg>
+  </g>
+</svg>
